@@ -1,0 +1,15 @@
+n_op_shards: 1
+n_replicas: 8
+n_dirs: 32768
+bs: 131072
+d_model: 768
+k: 32
+auxk: 256
+lr: 1e-4
+eps: 6.25e-10
+clip_grad: null
+auxk_coef: 0.03125
+dead_toks_threshold: 10000000
+ema_multiplier: null
+wandb_project: null
+wandb_name: null
