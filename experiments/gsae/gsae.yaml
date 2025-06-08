@@ -1,0 +1,13 @@
+defaults:
+  - ../base_config
+
+model:
+  group_size: 8
+  lambda_group: 0.1
+  lambda_max: 0.1
+  anneal_steps: null
+  group_penalty_type: "l1"
+
+experiment:
+  name: "gsae-pilot"
+  checkpoint_every: 50000
